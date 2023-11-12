@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Typewriter';
+    src: url('../fonts/SpecialElite.ttf');
+}
+
+body {
+    background-color: azure;
+    font-family: 'Typewriter';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+
+.header_right {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-template-columns: auto auto;
+}
+
+.sign_log {
+    display:inline-block;
+    padding-left: 1em;    
+}
+
+.main_body {
+    display: grid;
+    padding: 2em;
+
+}
+
+.login_main_body {
+    display: grid;
+    height: 90vh;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.login_border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.login{
+    display: grid;
+    max-height: fit-content;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+}
+
+.signup {
+    display: grid;
+    max-height: fit-content;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    border-top: 0px;
+}
+
+
+.login_title {
+    justify-self: center;
+}
+
+.login_form {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+}
+
+.form_label {
+    justify-self: end;
+    text-align: right;
+    align-self: center;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.form_field {
+    padding-right: 1em;
+    align-self: center;
+}
+
+.form_input_field {
+    border: 2px;
+    border-style: inset;
+    border-color: lightgray;
+    border-radius: 7px;
+    padding: 5px;
+    width: 90%;
+}
+
+.form_button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    margin-bottom: 1em;
+    padding: 5px;
+    font-size: large;
+    font-family: 'typewriter';
+    background-color: rgb(106, 209, 106);
+    width: 90%;
+}
